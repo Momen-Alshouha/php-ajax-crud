@@ -1,0 +1,16 @@
+// sql query to create table and coloums needed
+
+CREATE TABLE students (
+    id INT(6) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(191) NOT NULL,
+    email VARCHAR(191) NOT NULL,
+    phone VARCHAR(191) NOT NULL,
+    course VARCHAR(191) NOT NULL
+)
+
+// insert data
+
+INSERT INTO `students` (`id`, `name`, `email`, `phone`, `course`) VALUES (NULL, 'Ali', 'Ali@gmail.com', '078888888888', 'Javascript');
+INSERT INTO `students` (`id`, `name`, `email`, `phone`, `course`) VALUES (NULL, 'Ali', 'Ali@gmail.com', '078888888888', 'Javascript');
+INSERT INTO `students` (`id`, `name`, `email`, `phone`, `course`) VALUES (NULL, 'Ali', 'Ali@gmail.com', '078888888888', 'Javascript');
+INSERT INTO `students` (`id`, `name`, `email`, `phone`, `course`) VALUES (NULL, 'Ali', 'Ali@gmail.com', '078888888888', 'Javascript');
